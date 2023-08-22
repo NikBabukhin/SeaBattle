@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 65%;
+    position: relative;
+}
+
+.main_content {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}

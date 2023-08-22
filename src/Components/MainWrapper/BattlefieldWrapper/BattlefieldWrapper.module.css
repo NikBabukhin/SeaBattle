@@ -1,0 +1,6 @@
+.battlefields {
+    height: 80%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
