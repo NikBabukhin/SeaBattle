@@ -12,9 +12,49 @@
 .buttons_wrapper {
     display: flex;
     height: 100%;
+    align-items: center;
 }
 
 .console_button {
     position: absolute;
     right: 0;
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #7497dc;
+    outline: none;
+    border: 1px solid black;
+}
+
+.buttons_wrapper
+button {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    border-radius: 20%;
+    transition: transform .2s linear;
+}
+
+.buttons_wrapper
+button:last-child {
+    margin-right: 0;
+}
+
+
+button:hover {
+    cursor: pointer;
+    transition: background 1s linear;
+    background: rgb(99,124,173);
+    background: linear-gradient(315deg, rgba(99,124,173,1) 0%, rgba(116,151,220,1) 50%, rgba(99,124,173,1) 100%);
+}
+
+
+button:active {
+    transform: scale(1.1);
 }
